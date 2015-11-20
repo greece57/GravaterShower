@@ -16,11 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- 
-@viewport{height:device-height}
-@viewport{width:device-width}
-@-ms-viewport{height:device-height}
-@-ms-viewport{width:device-width}
 
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
@@ -35,30 +30,6 @@ body {
     height:100%;
     width:100%;
     margin:0;
-}
-
-/* Portrait layout (default) */
-.app {
-    background-color: white;
-    height:100%;
-    width:100%;
-}
-
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-        background-color: white;
-        height:100%;
-        width:100%;
-}
-
-    IMG.picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
 }
 
 IMG.picture {
