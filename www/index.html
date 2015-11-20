@@ -31,11 +31,13 @@
     </head>
     <body>
         <div class="app">
+            <IMG class="picture" src="https://de.gravatar.com/userimage/83468112/3f30505c337c9dc4567e0ebad3edff59.jpg?size=200" alt="Logo">
             <script type="text/javascript">
                 var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
                 var height = (window.innerHeight > 0) ? window.innerHeight : screen.height;
                 var minWH = Math.min(width,height);
-                document.write("hallo");
+                document.write("minWH: " + minWH);
+                document.write("<IMG class=\"picture\" src=\"https://de.gravatar.com/userimage/83468112/3f30505c337c9dc4567e0ebad3edff59.jpg?size=" + minWH + "\" alt=\"Logo\">");
             </script>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
